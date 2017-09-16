@@ -1,7 +1,9 @@
 # STAT545-hw01-thibodeau-mylinh
 
-* Comment: I will be using this README.md file to track what I have learned in this homework. This is the first homework with GitHub and Markdown and I am looking forward to learning how to use these resources optimally. 
-File opened locally on RStudio.
+Comment: I will be using this README.md file to track what I have learned in this homework. This is the first homework with GitHub and Markdown and I am looking forward to learning how to use these resources optimally. 
+*Files opened locally on RStudio.
+*Then pushed to Github with Git.
+*I have also made and RMarkdown file (.Rmd) that contains some Gapminder data exercises
 
 ***
 ## A little history of Git, Github and My Linh 
