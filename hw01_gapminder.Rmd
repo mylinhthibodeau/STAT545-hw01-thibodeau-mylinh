@@ -1,0 +1,23 @@
+---
+title: "HW1-Gapminder-Exercises"
+author: "My Linh Thibodeau"
+date: '2017-09-16'
+output: github_document
+---
+## Learn how to access gapminder data with RStudio
+Resources used:
+http://rstudio-pubs-static.s3.amazonaws.com/116038_0ebe7e3db5dd4f29ac10e0c994373f99.html
+https://github.com/jennybc/googlesheets
+
+```{r}
+library("googlesheets")
+suppressPackageStartupMessages(library("dplyr"))
+gs_gap() %>%
+  gs_copy(to = "Gapminder")
+gap <- gs_title("Gapminder")
+gap %>% gs_browse()
+gap %>% gs_browse(ws = "Europe")
+africa <- gs_read(gap)
+glimpse(africa)
+gap %>% gs_read(ws="Americas", range = cell_rows(3:6))
+```
