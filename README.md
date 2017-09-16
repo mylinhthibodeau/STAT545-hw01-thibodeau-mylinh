@@ -8,19 +8,26 @@ Comment: I will be using this README.md file to track what I have learned in thi
 ***
 ## A little history of Git, Github and My Linh 
 ### Once upon a time in a computer far far far away ...
-> A student started to learn about two brothers with confusing names: Git and Github...
+> A student started to learn about two brothers with confusing names: Git and Github. 
 
-There is something I don't quite understand.
+There is something I don't quite understand in the tree.
 
-> ... but as the student didn't know the difference between the brothers, she met several challenges.
+> As the student didn't know the exact relationship between the brothers, several problems arised. RStudio tried to make the brothers talk to each other, but they were always out of sync. 
 
-There was a conflict message when trying to committ the changes made in RStudio to Git.
+There was a conflict message when trying to committ the changes made in RStudio to Github via Git:
+'commit' is not possible because you have unmerged files
 
-> Luckily for the student, internet came to the rescue!
+> Luckily for the student, internet came to the rescue! 
 
   [A previous gitgub discussion from STAT545](https://github.com/STAT545-UBC/Discussion/issues/16)
   
   [A stack overflow discussion](https://stackoverflow.com/questions/9282632/git-index-lock-file-exists-when-i-try-to-commit-but-cannot-delete-the-file)
+
+> But that only worked some times, with the recursive strategy, as the underlying problem persisted: she was unable still unable to make Git talk to his brother, Github. 
+
+After many unsuccessful attempts to push my local data (personal computer) to Github, and with the help of Vincenzo and Pedro, I realized I had inadvertently created a Git repository within a Git repository.
+
+I had the Git version of Inception, except that instead of having a dream in a dream, I had a Git repository inside a Git repository.[^1]: If you have an iphone and are able to talk to Siri, I recommend you ask her the following question: "Siri, what is the movie Inception about?"
 
 ***
 ### Eventually, the student finally started the assignment.
