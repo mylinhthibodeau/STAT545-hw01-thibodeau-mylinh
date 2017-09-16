@@ -20,4 +20,10 @@ gap %>% gs_browse(ws = "Europe")
 africa <- gs_read(gap)
 glimpse(africa)
 gap %>% gs_read(ws="Americas", range = cell_rows(3:6))
+
+mylinh_ss <- gs_new("mylinh", input = head(1, 4), trim=TRUE)
+mylinh_ss <- gs_title("mylinh")
+mylinh_ss <- mylinh_ss %>%
+  gs_edit_cells(input = c("This", "is", "a","homework"),
+                anchor = "A1", byrow = TRUE)
 ```
