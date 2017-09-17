@@ -32,8 +32,8 @@ mylinh_ss <- mylinh_ss %>%
   gs_edit_cells(input = c("This", "is", "a","homework", "!"),
                 anchor = "A2", byrow = TRUE)
 mylinh_ss <- mylinh_ss %>%
-+   gs_add_row(input = c("One", "Two", "Three", "Four"))
+  gs_add_row(input = c("One", "Two", "Three", "Four"))
 mylinh_ss <- mylinh_ss %>%
-    gs_add_row(input = c("My Linh", "was", "here", "!"))
+  gs_add_row(input = c("My Linh", "was", "here", "!"))
 
 ```
