@@ -27,8 +27,7 @@ There was a conflict message when trying to committ the changes made in RStudio 
 
 After many unsuccessful attempts to push my local data (personal computer) to Github, and with the help of Vincenzo and Pedro, I realized I had inadvertently created a Git repository within a Git repository.
 
-I had the Git version of Inception, except that instead of having a dream in a dream, I had a Git repository inside a Git repository.[^1]
-[^1]If you have an iphone and are able to talk to Siri, I recommend you ask her the following question: "Siri, what is the movie Inception about?"
+I had the Git version of Inception, except that instead of having a dream in a dream, I had a Git repository inside a Git repository. If you have an iphone and are able to talk to Siri, I recommend you ask her the following question: "Siri, what is the movie Inception about?"
 
 ***
 ### Eventually, the student finally started the assignment.
@@ -53,6 +52,14 @@ Here is a list of some high penetrance hereditary cancer genes:
 
 I found this list on the [Hereditary Cancer Program Panel website](http://www.ccgenomics.ca/available-tests.html)
 
+Red flags for hereditary cancer syndromes:  
+1. Cancer in two or more close relatives  
+2. Young age at cancer onset (<50 years)  
+3. Two or more tumours arising from different primary sites (synchronous or metachronous)  
+4. Two or more tumours arising simultaneously in same organ or bilateral origin (synchronous)  
+5. Rare tumours associated with specific cancer syndromes (e.g. medullary thyroid cancer and Multiple Endocrine Neoplasia type 1 syndrome)  
+Source: Hampel, H. et al. A practice guideline from the American College of Medical Genetics and Genomics and the National Society of Genetic Counselors: referral indications for cancer predisposition assessment. Genet Med 17, 70–87 (2014).
+
 ### An example: Hereditary Breast and Ovarian Cancer (HBOC) syndrome
 
 The importance of detecting germline mutations in hereditary cancer predisposition genes resides in the fact that the medical and/or surgical management of such individuals can be tailored to their cancer risk.
@@ -75,7 +82,6 @@ library(dplyr)
 library(ggplot2)
 ggplot(data=my_data, aes(x=days_week, y = work_hours), na.rm=TRUE)+
   geom_bar(data=my_data, fill = "purple", stat = "identity", na.rm=TRUE)
-plot(my_data)
 ```
 
 ***
