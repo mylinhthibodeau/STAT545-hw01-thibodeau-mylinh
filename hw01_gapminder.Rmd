@@ -5,9 +5,9 @@ date: '2017-09-16'
 output: github_document
 ---
 ## Learn how to access gapminder data with RStudio
-Resources used:  
-http://rstudio-pubs-static.s3.amazonaws.com/116038_0ebe7e3db5dd4f29ac10e0c994373f99.html
-https://github.com/jennybc/googlesheets
+Resources used:    
+http://rstudio-pubs-static.s3.amazonaws.com/116038_0ebe7e3db5dd4f29ac10e0c994373f99.html  
+https://github.com/jennybc/googlesheets  
 
 ```{r}
 library("googlesheets")
@@ -30,4 +30,5 @@ mylinh_ss <- mylinh_ss %>%
 +   gs_add_row(input = c("One", "Two", "Three", "Four"))
 mylinh_ss <- mylinh_ss %>%
     gs_add_row(input = c("My Linh", "was", "here", "!"))
+
 ```
