@@ -89,6 +89,6 @@ ggplot(data=my_data, aes(x=days_week, y = work_hours), na.rm=TRUE)+
   geom_bar(data=my_data, fill = "purple", stat = "identity", na.rm=TRUE)
 dev.off()
 ```
-![Let's see if this work](StudentLife.pdf)
+![Let's see if this plot works](StudentLife.pdf)
 
 ***
