@@ -9,6 +9,7 @@ Resources used:
 http://rstudio-pubs-static.s3.amazonaws.com/116038_0ebe7e3db5dd4f29ac10e0c994373f99.html  
 https://github.com/jennybc/googlesheets  
 
+### First exercise
 ```{r}
 library("googlesheets")
 suppressPackageStartupMessages(library("dplyr"))
@@ -20,7 +21,11 @@ gap %>% gs_browse(ws = "Europe")
 africa <- gs_read(gap)
 glimpse(africa)
 gap %>% gs_read(ws="Americas", range = cell_rows(3:6))
+```
 
+
+### Second exercise
+```{r}
 mylinh_ss <- gs_new("mylinh", input = head(iris, 4), trim=TRUE)
 mylinh_ss <- gs_title("mylinh")
 mylinh_ss <- mylinh_ss %>%
