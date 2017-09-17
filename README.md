@@ -27,7 +27,7 @@ There was a conflict message when trying to committ the changes made in RStudio 
 
 After many unsuccessful attempts to push my local data (personal computer) to Github, and with the help of Vincenzo and Pedro, I realized I had inadvertently created a Git repository within a Git repository.
 
-![Inception, but the Git version](giphy_Inception.mp4) 
+![Inception, but the Git version](Inception.gif) 
 
 Source: https://giphy.com/gifs/movie-reality-dreams-Gw6zuulR3WKlO/download  
 
