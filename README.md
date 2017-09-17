@@ -80,8 +80,11 @@ my_data <- data.frame(days_week, work_hours)
 View(my_data)
 library(dplyr)
 library(ggplot2)
+pdf("StudentLife.pdf")
 ggplot(data=my_data, aes(x=days_week, y = work_hours), na.rm=TRUE)+
   geom_bar(data=my_data, fill = "purple", stat = "identity", na.rm=TRUE)
+dev.off()
 ```
+![Let's see if this work](StudentLife.pdf)
 
 ***
