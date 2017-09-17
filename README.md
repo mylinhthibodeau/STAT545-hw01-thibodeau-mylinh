@@ -52,7 +52,7 @@ Here is a list of some high penetrance hereditary cancer genes:
 
 I found this list on the [Hereditary Cancer Program Panel website](http://www.ccgenomics.ca/available-tests.html)
 
-Red flags for hereditary cancer syndromes:  
+**Red flags for hereditary cancer syndromes:**  
 1. Cancer in two or more close relatives  
 2. Young age at cancer onset (<50 years)  
 3. Two or more tumours arising from different primary sites (synchronous or metachronous)  
@@ -64,7 +64,7 @@ Source: Hampel, H. et al. A practice guideline from the American College of Medi
 
 The importance of detecting germline mutations in hereditary cancer predisposition genes resides in the fact that the medical and/or surgical management of such individuals can be tailored to their cancer risk.
 
-Considering triple negative breast cancer cases, the age of onset is much earlier in individuals with high penetrance hereditary breast and ovarian cancer syndrome, as illustrated by the image below (Couch et al. 2015)
+Considering triple negative breast cancer cases, the age of onset is much earlier in individuals with high penetrance hereditary breast and ovarian cancer syndrome, as illustrated by the image below (Couch et al. 2015).
 
 ![Triple negative breast cancer individuals and age at cancer: younger individuals with high penetrance hereditary breast and ovarian cancer syndrome.](CouchAl_TNBC_agepresentation.png)  
 
