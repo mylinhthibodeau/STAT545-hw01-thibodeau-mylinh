@@ -52,7 +52,7 @@ Here is a list of some high penetrance hereditary cancer genes:
 
 I found this list on the [Hereditary Cancer Program Panel website](http://www.ccgenomics.ca/available-tests.html)
 
-Red flags for hereditary cancer syndromes:  
+**Red flags for hereditary cancer syndromes:**  
 1. Cancer in two or more close relatives  
 2. Young age at cancer onset (<50 years)  
 3. Two or more tumours arising from different primary sites (synchronous or metachronous)  
