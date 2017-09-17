@@ -1,9 +1,9 @@
 # STAT545-hw01-thibodeau-mylinh
 
 Comment: I will be using this README.md file to track what I have learned in this homework. This is the first homework with GitHub and Markdown and I am looking forward to learning how to use these resources optimally. 
-*Files opened locally on RStudio.
-*Then pushed to Github with Git.
-*I have also made and RMarkdown file (.Rmd) that contains some Gapminder data exercises
+* Files opened locally on RStudio.
+* Then pushed to Github with Git.
+* I have also made and RMarkdown file (.Rmd) that contains some Gapminder data exercises
 
 ***
 ## A little history of Git, Github and My Linh 
@@ -63,16 +63,18 @@ Considering triple negative breast cancer cases, the age of onset is much earlie
 Source of image: Couch, F. J. et al. Inherited Mutations in 17 Breast Cancer Susceptibility Genes Among a Large Triple-Negative Breast Cancer Cohort Unselected for Family History of Breast Cancer. Journal of Clinical Oncology 33, 304–311 (2015).
 
 ***
-
-Here is an example of R code inserted with Markdown:
+# Life of a graduate student
 ```{r}
+Here is an example of R code block inserted with Markdown:
 days_week <- c("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
-work_hours <- seq(40, 76, 6)
+work_hours <- seq(40, 76)
 my_data <- data.frame(days_week, work_hours)
 View(my_data)
 library(dplyr)
 library(ggplot2)
-plot(my_data, type = "h")
+ggplot(data=my_data, aes(x=days_week, y = work_hours), na.rm=TRUE)+
+  geom_bar(data=my_data, fill = "purple", stat = "identity", na.rm=TRUE)
+plot(my_data)
 ```
 
 ***
