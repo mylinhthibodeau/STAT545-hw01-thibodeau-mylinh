@@ -19,7 +19,7 @@ There was a conflict message when trying to committ the changes made in RStudio 
 
 > Luckily for the student, internet came to the rescue! 
 
-  [A previous gitgub discussion from STAT545](https://github.com/STAT545-UBC/Discussion/issues/16)
+  [A previous Github discussion from STAT545](https://github.com/STAT545-UBC/Discussion/issues/16)
   
   [A stack overflow discussion](https://stackoverflow.com/questions/9282632/git-index-lock-file-exists-when-i-try-to-commit-but-cannot-delete-the-file)
 
@@ -27,7 +27,7 @@ There was a conflict message when trying to committ the changes made in RStudio 
 
 After many unsuccessful attempts to push my local data (personal computer) to Github, and with the help of Vincenzo and Pedro, I realized I had inadvertently created a Git repository within a Git repository.
 
-I had the Git version of Inception, except that instead of having a dream in a dream, I had a Git repository inside a Git repository. If you have an iphone and are able to talk to Siri, I recommend you ask her the following question: "Siri, what is the movie Inception about?"
+I had the Git version of Inception, except that instead of having a dream inside a dream, I had a Git repository inside a Git repository. If you have an iphone and are able to talk to Siri, I recommend you ask her the following question: "Siri, what is the movie Inception about?"
 
 ***
 ### Eventually, the student finally started the assignment.
